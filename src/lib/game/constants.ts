@@ -1,0 +1,10 @@
+export const BUBBLE_RADIUS = 20;
+export const BUBBLE_DIAMETER = BUBBLE_RADIUS * 2;
+export const ROW_HEIGHT = BUBBLE_RADIUS * Math.sqrt(3);
+export const GRID_COLS = 11;
+export const GRID_ROWS = 15;
+export const CANVAS_WIDTH = GRID_COLS * BUBBLE_DIAMETER;
+export const CANVAS_HEIGHT = 640;
+export const COLORS = ['#FF4136', '#2ECC40', '#0074D9', '#FFDC00', '#B10DC9', '#39CCCC'];
+export const MAX_MISSES = 5;
+export const SHOOT_SPEED = 18;
